@@ -273,7 +273,7 @@ abbr {
 }
 footer {
     background-color: #23393c;
-    min-height: 50vh;
+    min-height: 500px;
     max-height: 100%;
 
 }
@@ -804,4 +804,13 @@ footer {
         gap: 1.2rem;
     }
 
+}
+/* ------------------------------------------------------------------------------------------- */
+
+
+@media screen and (min-width: 620px) and (min-aspect-ratio: 7/4) 
+{
+    footer {
+        height: 400px;
+    }
 }
