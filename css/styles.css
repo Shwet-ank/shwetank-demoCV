@@ -146,7 +146,7 @@ p {
 .left-side {
     display: flex;
     flex-flow: row wrap;
-    height: 35vh;
+    height: 350px;
     width: 80%;
     background-color: #49a3af;
     justify-content: center;
@@ -165,7 +165,7 @@ p {
 .right-side {
     display: flex;
     flex-flow: row-reverse wrap;
-    height: 35vh;
+    height: 350px;
     width: 80%;
     background-color: #49a3af;
     justify-content: center;
@@ -789,7 +789,7 @@ footer {
         font-size: 110px;
     }
     .left-side, .right-side {
-        height: 40vh;
+        height: 370px;
         width: 95%;
     }
     .right-text-h2 {
@@ -806,11 +806,3 @@ footer {
 
 }
 /* ------------------------------------------------------------------------------------------- */
-
-
-@media screen and (min-width: 620px) and (min-aspect-ratio: 7/4) 
-{
-    footer {
-        height: 400px;
-    }
-}
