@@ -1,0 +1,807 @@
+/* --------------------- IMPORTED FONT LINKS ----------------------- */
+
+@import url('https://fonts.googleapis.com/css2?family=Passions+Conflict&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Questrial&display=swap');
+
+/* font-family: 'Passions Conflict', cursive; */
+/* font-family: 'Dancing Script', cursive; */
+/* font-family: 'Questrial', sans-serif; */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+    scroll-behavior: smooth;
+}
+header {
+    background-color: #49a3af;
+    color: #fff;
+    width: 100%;
+}
+p {
+    word-spacing: 1.5;
+    line-height: 1.5;
+    font-family: 'Questrial', sans-serif;
+}
+
+.nav .res {
+    display: none;
+}
+.second-head .fafa {
+    display: none;
+}
+.wordwrap {
+    white-space: nowrap;
+}
+.right-h1 {
+    font-size: 2.2rem;
+    line-height: 1.5;
+}
+.ttt, li, li, u {
+    word-spacing: 1.5;
+    line-height: 1.5;
+}
+.head {
+    padding: 2rem;
+    display: flex;
+    flex-flow: row nowrap;
+    justify-content: space-between;
+}
+.ss-logo {
+    width: 50px;
+    margin: 1rem 0 0 3rem;
+    height: auto;
+}
+.signature {
+    width: 250px;
+    height: auto;
+}
+.nav {
+    display: flex;
+    flex-flow: row nowrap;
+}
+.nav li {
+    list-style-type: none;
+    margin-right: 2.5rem;
+    padding-top: 1.5rem;
+}
+.nav li a, .nav li a:visited {
+    color: #fff;
+    text-decoration: none;
+}
+.iii {
+    cursor: default;
+}
+.nav li a:hover, .nav li a:focus {
+    color: rgb(166, 251, 255);
+    text-decoration: none;
+}
+.nav li a:active {
+    color: rgb(247, 100, 125);
+    text-decoration: overline;
+}
+.active {
+    color: rgb(247, 100, 125);
+    text-decoration: overline;
+}
+.namee {
+    font-family: 'Passions Conflict', cursive;
+    font-size: 9rem;
+    font-weight: 100;
+    text-align: center;
+    line-height: 1.5;
+    display: block;
+}
+.namee, .namee:visited {
+    color: #fff;
+    text-decoration: none;
+}
+.namee:hover, .namee:focus {
+    color: #fff;
+    text-decoration: none;
+}
+.namee:active {
+    color: #fff;
+}
+.main-part {
+    margin: 100px 0;
+    background-color: #FFF;
+    width: 100%;
+    display: flex;
+    flex-flow: row wrap;
+}
+.left {
+    flex-basis: 50%;
+    padding: 3rem;
+    display: flex;
+    flex-flow: column nowrap;
+    justify-content: center;
+    align-items: center;
+}
+.right {
+    flex-basis: 50%;
+    padding: 3rem;
+    display: flex;
+    flex-flow: column nowrap;
+    justify-content: center;
+    line-height: 1.3;
+    word-spacing: 1.5;
+}
+.profile-photo {
+    width: 100%;
+    height: auto;
+}
+#about {
+    padding: 80px 0 140px 0;
+    background-color: #47bcbd;
+    width: 100%;
+    color: #FFF;
+    display: flex;
+    flex-flow: column nowrap;
+    justify-content: center;
+    align-items: center;
+    gap: 3rem;
+}
+.left-side {
+    display: flex;
+    flex-flow: row wrap;
+    height: 35vh;
+    width: 80%;
+    background-color: #49a3af;
+    justify-content: center;
+    align-items: center;
+    border-radius: 15px;
+}
+.left-photo {
+    text-align: center;
+    width: 40%;
+}
+.right-text {
+    width: 60%;
+    text-align: right;
+    word-spacing: 1.5;
+}
+.right-side {
+    display: flex;
+    flex-flow: row-reverse wrap;
+    height: 35vh;
+    width: 80%;
+    background-color: #49a3af;
+    justify-content: center;
+    align-items: center;
+    border-radius: 15px;
+}
+.right-photo {
+    text-align: center;
+    width: 40%;
+}
+.left-text {
+    width: 60%;
+    word-spacing: 1.5;
+}
+.ttt {
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-around;
+    gap: 1rem;
+}
+.fa-solid {
+    font-size: 8rem;
+    width: 100%;
+    height: auto;
+}
+.right-text-h2 {
+    font-size: 3rem;
+    margin-right: 7rem;
+    font-weight: 100;
+}
+.left-text-h2 {
+    font-size: 3rem;
+    margin-left: 4rem;
+    font-weight: 100;
+}
+li{
+    list-style-type: none;
+}
+abbr {
+    text-decoration: none;
+    cursor: default;
+}
+.left-side:hover, .right-side:hover,
+.left-side:focus, .right-side:focus {
+    background-color: #53cada;
+    transform: translateY(-2px);
+    transition-timing-function: ease-in-out;
+    transition-duration: 0.2s;
+}
+.about-h1 {
+    margin-bottom: 1rem;
+    font-size: 4rem;
+    line-height: 1.5;
+    font-weight: 100;
+    text-align: right;
+    width: 70%;
+}
+.dada {
+    position: relative;
+    scroll-behavior: smooth;
+}
+.dada .fa-solid {
+    position: absolute;
+    top: -25px;
+}
+
+.dada .fa-solid, .dada .fa-solid:visited {
+    font-size: 1.5rem;
+    margin: 0 50% 0 50%;
+    padding-bottom: 0;
+    color: black;
+    background-color: yellow;
+    line-height: 2.0;
+    width: 50px;
+    height: 50px;
+    text-align: center;
+    border-radius: 50%;
+    border: 1px solid grey;
+}
+.enquiry {
+    height: 200px;
+    background-color: #FFF;
+    color: #53cada;
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    flex-flow: column nowrap;
+    width: 70%;
+    margin: 0 auto;
+    
+}
+.enquiry-div {
+    width: 100%;
+    
+}
+.enquiry-div-h1 {
+    color: rgb(247, 100, 125);
+    font-size: 3rem;
+}
+.enquiry-div-p {
+    color: black;
+    line-height: 1.5;
+    padding-top: 1rem;
+    font-size: 1.5rem;
+}
+footer {
+    background-color: #23393c;
+    min-height: 50vh;
+    max-height: 100%;
+
+}
+#contact {
+    width: 100%;
+    height: 90%;
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: center;
+    align-items: center;
+    color: #FFF;
+    font-family: 'Questrial', sans-serif;
+}
+.contact-details {
+    height: 85%;
+    flex-basis: 40%;
+    display: flex;
+    flex-flow: column nowrap;
+}
+.aaa {
+    flex-basis: 90%;
+    width: 80%;
+    margin: 2rem auto;
+}
+.contact-form {
+    display: flex;
+    flex-flow: column nowrap;
+    justify-content: center;
+    align-items: center;
+    height: 80%;
+    flex-basis: 50%;
+}
+.forms {
+    width: 80%;
+    height: 85%;
+}
+.forms-fs {
+    border: none;
+}
+.forms-input {
+    width: 100%;
+    height: 45px;
+    margin: 0.2rem 0 0.2rem 0;
+    line-height: 1.5;
+    padding: 0 0 0 1rem;
+    border-radius: 0 0 0 0;
+    border: none;
+    outline: none;
+    color: #23393c;
+    background-color: #abc7ca;
+    font-family: 'Questrial', sans-serif;
+    font-size: 1rem;
+}
+.forms-txt {
+    line-height: 1.5;
+    width: 100%;
+    height: 110px;
+    margin: 0.2rem 0 0.2rem 0;
+    padding: 0.5rem 0 0 1rem;
+    border: none;
+    outline: none;
+    color: #23393c;
+    background-color: #abc7ca;
+    font-family: 'Questrial', sans-serif;
+    font-size: 1rem;
+}
+.contact-form .forms .forms-button {
+    border: none;
+    outline: none;
+    background-color: #23393c;
+    color: #abc7ca;
+    font-size: 1.2rem;
+    line-height: 1.5;
+    font-weight: 100;
+    cursor: pointer;
+}
+.contact-form .forms .forms-button:hover {
+    color: #FFF;
+    transition: all 0.3s ease-in-out;
+
+}
+.aaa-h1, .aaa-h1:visited {
+    font-family: 'Dancing Script', cursive;
+    font-size: 2rem;
+    color: #47bcbd;
+    text-decoration: none;
+}
+.aaa-h1:hover, .aaa-h1:focus {
+    color: #FFF;
+    transition: all 0.3s ease-in-out;
+}
+.aaa-h1:active {
+    color: rgb(247, 100, 125);
+    transition: all 0.3s ease-in-out;
+}
+.aaa-links {
+    display: flex;
+    flex-flow: row nowrap;
+    width: 50%;
+    gap: 1rem;
+}
+.tablinks, .tablinks:visited {
+    font-size: 1.4rem;
+    color: #53cada;
+    border: 2px solid grey;
+    padding: .5rem;
+    border-radius: 50%;
+    line-height: 1;
+    width: 40px;
+    height: 40px;
+    text-align: center;
+}
+.tablinks:hover, .tablinks:focus {
+    border: 2px solid #FFF;
+    transition: all 0.3s ease-in-out;
+    cursor: pointer;
+}
+.download, .download:visited {
+    font-family: 'Questrial', sans-serif;
+    font-size: 2rem;
+    color: #47bcbd;
+    text-decoration: none;
+    text-decoration: underline;
+}
+.download:hover, .download:focus {
+    color: #FFF;
+    transition: all 0.3s ease-in-out;
+}
+.download:active {
+    color: rgb(247, 100, 125);
+    transition: all 0.3s ease-in-out;
+    text-decoration: overline;
+}
+.sentt {
+    color: yellowgreen;
+}
+.copyright-2 {
+    display: none;
+}
+/* *************************************** Small Screens ****************************************** */
+
+
+@media  screen and (max-width: 300px)
+{
+    
+    .namee {
+        font-size: 3.5rem;
+        /* padding: 50px 0 50px 10px; */
+    }
+    .ss-logo {
+        margin: 0;
+    }
+    .profile-photo {
+        width: 275px;
+    }
+    .right-h1 {
+        font-size: 1.5rem;
+    }
+    .nav .tabss, .nav .res {
+        display: block;
+        text-align: center;
+        
+    }
+    .nav .res {
+        display: block;
+        text-align: center;
+        position: fixed;
+        bottom: 5px;
+        font-size: 40px;
+    }
+    .nav {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-flow: column nowrap;
+        width: 100%;
+        background-color: hsla(187, 26%, 19%, 0.623);
+        color: #fff;
+        height: 100vh;
+        position: fixed;
+        top: 0;
+        right: -1000px;
+        font-size: 2rem;
+    }
+    .nav .iii {
+        display: none;
+    }
+    .second-head .fafa {
+        display: block;
+        font-size: 40px;
+    }
+    .main-part {
+        flex-flow: column nowrap;
+    }
+    #contact {
+        flex-flow: column nowrap;
+    }
+    .left-photo, .right-photo {
+        text-align: center;
+        width: 80%;
+        height: auto;
+    }
+    .left-side, .right-side {
+        height: 580px;
+        width: 90%;
+        text-align: center;
+    }
+    .left-text, .right-text {
+        text-align: center;
+    }
+    .right-text-h2, .left-text-h2 {
+        text-align: center;
+        margin: auto;
+        font-size: 2.5rem;
+    }
+    .fa-solid {
+        font-size: 100px;
+    }
+    .about-h1 {
+        font-size: 3rem;
+        text-align: center;
+    }
+    .ttt {
+        display: flex;
+        flex-flow: row wrap;
+        gap: 1.5rem;
+    }
+    .forms {
+        width: 100%;
+    }
+    .contact-form {
+        width: 90%;
+    }
+    .contact-details {
+        width: 100%;
+        text-align: center;
+    }
+    .aaa-links {
+        justify-content: space-evenly;
+        width: 100%;
+    }
+    .copyright-2 {
+        display: block;
+        margin-top: 2rem;
+        margin-bottom: 2rem;
+    }
+    .copyright {
+        display: none;
+    }
+    .dada .fa-solid, .dada .fa-solid:visited {
+        margin: 0 40% 0 40%;
+    }
+    .enquiry-div-h1 {
+        font-size: 2.3rem;
+    }
+}
+/* --------------------------------------------------------------------------------------------------- */
+
+
+@media  screen and (min-width: 301px) and (max-width: 450px)
+{
+    
+    .namee {
+        font-size: 4rem;
+        /* padding: 50px 0 50px 10px; */
+    }
+    .ss-logo {
+        margin: 0;
+    }
+    .profile-photo {
+        min-width: 300px;
+        max-width: 440px;
+    }
+    .right-h1 {
+        font-size: 1.5rem;
+    }
+    .nav .tabss, .nav .res {
+        display: block;
+        text-align: center;
+        
+    }
+    .nav .res {
+        display: block;
+        text-align: center;
+        position: fixed;
+        bottom: 5px;
+        font-size: 40px;
+    }
+    .nav {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-flow: column nowrap;
+        width: 100%;
+        background-color: hsla(187, 26%, 19%, 0.623);
+        color: #fff;
+        height: 100vh;
+        position: fixed;
+        top: 0;
+        right: -1000px;
+        font-size: 2rem;
+    }
+    .nav .iii {
+        display: none;
+    }
+    .second-head .fafa {
+        display: block;
+        font-size: 40px;
+    }
+    .main-part {
+        flex-flow: column nowrap;
+    }
+    #contact {
+        flex-flow: column nowrap;
+    }
+    .left-photo, .right-photo {
+        text-align: center;
+        width: 80%;
+        height: auto;
+    }
+    .left-side, .right-side {
+        height: 580px;
+        width: 90%;
+        text-align: center;
+    }
+    .left-text, .right-text {
+        text-align: center;
+    }
+    .right-text-h2, .left-text-h2 {
+        text-align: center;
+        margin: auto;
+        font-size: 2.5rem;
+    }
+    .fa-solid {
+        font-size: 130px;
+    }
+    .about-h1 {
+        font-size: 3rem;
+        text-align: center;
+    }
+    .ttt {
+        display: flex;
+        flex-flow: row wrap;
+        gap: 1.5rem;
+    }
+    .forms {
+        width: 100%;
+    }
+    .contact-form {
+        width: 90%;
+    }
+    .contact-details {
+        width: 90%;
+        text-align: center;
+    }
+    .aaa-links {
+        justify-content: space-evenly;
+        width: 100%;
+    }
+    .copyright-2 {
+        display: block;
+        margin-top: 2rem;
+        margin-bottom: 2rem;
+    }
+    .copyright {
+        display: none;
+    }
+    .dada .fa-solid, .dada .fa-solid:visited {
+        margin: 0 45% 0 45%;
+    }
+    .enquiry-div-h1 {
+        font-size: 2.5rem;
+    }
+}
+/* ------------------------------------------------------------------------------------------- */
+
+
+@media  screen and (min-width: 451px) and (max-width: 680px)
+{
+    
+    .namee {
+        font-size: 6rem;
+    }
+    .ss-logo {
+        margin: 0;
+        width: 50px;
+    }
+    .profile-photo {
+        width: 90%;
+    }
+    .nav .tabss, .nav .res {
+        display: block;
+        text-align: center;
+        margin: 10px;
+        
+    }
+    .nav .res {
+        display: block;
+        text-align: center;
+        position: fixed;
+        bottom: 5px;
+        font-size: 40px;
+    }
+    .nav {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-flow: column nowrap;
+        width: 100%;
+        background-color: hsla(187, 26%, 19%, 0.623);
+        color: #fff;
+        height: 100vh;
+        position: fixed;
+        top: 0;
+        right: -1000px;
+        font-size: 2rem;
+    }
+    .nav .iii {
+        display: none;
+    }
+    .second-head .fafa {
+        display: block;
+        font-size: 40px;
+    }
+    .main-part {
+        flex-flow: column nowrap;
+    }
+    #contact {
+        flex-flow: column nowrap;
+    }
+    .left-side, .right-side {
+        flex-flow: column nowrap;
+        height: 540px;
+        width: 90%;
+        text-align: center;
+    }
+    .right-text-h2, .left-text-h2 {
+        text-align: center;
+        margin: 1rem 0 .2rem 0;
+        font-size: 3rem;
+    }
+    .fa-solid {
+        font-size: clamp(110px, 140px, 170px);
+    }
+    .about-h1 {
+        font-size: 4rem;
+        text-align: center;
+    }
+    .ttt {
+        text-align: center;
+        display: flex;
+        flex-flow: row wrap;
+        gap: 1.4rem;
+    }
+    .forms {
+        width: 100%;
+    }
+    .contact-form {
+        width: 90%;
+    }
+    .contact-details {
+        width: 100%;
+        text-align: center;
+    }
+    .enquiry-div-h1 {
+        font-size: 2.7rem;
+    }
+    .enquiry-div-p {
+        font-size: 1.5rem;
+    }
+    .aaa-links {
+        justify-content: space-evenly;
+        width: 100%;
+    }
+    .copyright-2 {
+        display: block;
+        margin-top: 2rem;
+        margin-bottom: 2rem;
+    }
+    .copyright {
+        display: none;
+    }
+}
+/* ------------------------------------------------------------------------------------------- */
+
+
+@media  screen and (min-width: 681px) and (max-width: 920px)
+{
+    .nav li {
+        list-style-type: none;
+        margin-right: 1.5rem;
+        padding-top: 1.5rem;
+    }
+    .nav .res {
+        display: none;
+    }
+    .second-head .fafa {
+        display: none;
+    }
+    .namee {
+        font-size: 7.5rem;
+    }
+    .profile-photo {
+        max-width: 650px;
+    }
+    .main-part {
+        flex-flow: column nowrap;
+    }
+    .right {
+        padding: 8rem;
+    }
+    .fa-solid{
+        font-size: 110px;
+    }
+    .left-side, .right-side {
+        height: 40vh;
+        width: 95%;
+    }
+    .right-text-h2 {
+        font-size: 2.5rem;
+    }
+    .left-text-h2 {
+        font-size: 2.5rem;
+        margin-left: 2rem;
+    }
+    .ttt {
+        font-size: 0.9rem;
+        gap: 1.2rem;
+    }
+
+}
