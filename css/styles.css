@@ -437,6 +437,9 @@ footer {
         text-align: center;
         
     }
+    .nav li {
+        margin-right: 0;
+    }
     .nav .res {
         display: block;
         text-align: center;
@@ -457,6 +460,7 @@ footer {
         top: 0;
         right: -1000px;
         font-size: 2rem;
+        z-index: 1;
     }
     .nav .iii {
         display: none;
@@ -555,6 +559,9 @@ footer {
         text-align: center;
         
     }
+    .nav li {
+        margin-right: 0;
+    }
     .nav .res {
         display: block;
         text-align: center;
@@ -575,6 +582,7 @@ footer {
         top: 0;
         right: -1000px;
         font-size: 2rem;
+        z-index: 1;
     }
     .nav .iii {
         display: none;
@@ -670,6 +678,9 @@ footer {
         margin: 10px;
         
     }
+    .nav li {
+        margin-right: 0;
+    }
     .nav .res {
         display: block;
         text-align: center;
@@ -690,6 +701,7 @@ footer {
         top: 0;
         right: -1000px;
         font-size: 2rem;
+        z-index: 1;
     }
     .nav .iii {
         display: none;
